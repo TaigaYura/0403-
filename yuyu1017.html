@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1017</title>
+</head>
+<body>
+    <form action="example.php" method="post" name="contact-form">
+        <input type="checkbox" name="travel" value="日本国内" id="japan">
+        <label for="japan">日本国内</label>
+        <br>
+        <input type="checkbox" name="travel" value="ヨーロッパ" id="europe">
+        <label for="europe">ヨーロッパ</label>
+        <br>
+        <input type="checkbox" name="travel" value="東南アジア" id="asia">
+        <label for="asia">東南アジア</label>
+        <br>
+        <input type="reset" value="リセットボタン">
+    </form>
+    <form action="example.php" method="post" name="contact-form"></form>
+        <br>
+        名前：<input type="text" placeholder="山田　太郎">
+        <br>
+        電話番号：<input type="tel" placeholder="090-1234-5678">
+        <br>
+        性別：
+        <input type="radio" name="gender" value="男" checked id="men"><label for="men">男</label>
+        <br>
+        <input type="radio" name="gender" value="女" id="women"><label for="women">女</label>
+        <br>
+        <input type="radio" name="gender" value="その他" id="other"><label for="other">その他</label>
+        <br>
+        血液型
+        <select multiple name="bloodtype">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="O">O</option>
+            <option value="AB">AB</option>
+            <option value="不明" selected>不明</option>
+        </select>
+        <br>
+        <textarea name="message" placeholder="メッセージを入力"></textarea>
+        <br>
+        <input type="submit" value="送信する">
+    </form>
+
+    <article>
+        <h1>明日の天気</h1>
+        <p>明日は曇りのち晴れでしょう。</p>
+    </article>
+
+    <section>
+        <h2>おすすめの着こなし</h2>
+        <p>この時期は暖かい気温が続きますが、一枚羽織る服があるといいでしょう</p>
+    </section>
+
+    <header>
+        <h1>ページタイトル</h1>
+        <nav>
+            <ul>
+                <li><a href="#">サービス紹介</a></li>
+                <li><a href="#">料金</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
